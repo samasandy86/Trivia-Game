@@ -1,0 +1,80 @@
+body {
+	background-image: url("../images/jordan-bg.jpg");	
+	color: black;
+	font-family: 'Arial', sans-serif;
+	font-size: 14px;
+}
+
+#timer {
+	font-size: 30px;
+}
+
+.content{
+	background: white;
+	opacity: .90;
+	border: darkslategrey 2px dashed;
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.content-form{
+	color: darkslategrey;
+}
+
+#container {
+	width: 60%;
+	background: #199fdb;
+	margin: 20px 20px;
+	overflow: auto;
+	padding: 25px;
+}
+
+header {
+	background-color: red;
+	opacity: 0.9;
+	text-align: center;
+	border-bottom: red dashed 3px;
+}
+
+header h1 {
+	margin: 0;
+	padding: 0;
+}
+h2 {
+	font-size: 20px;
+}
+
+header p {
+	padding: 0;
+	margin-top: 5px;
+	color: #000;
+}
+
+section {
+	min-height: 400px;
+  	margin-left: 35%;
+}
+
+input[type='submit'] {
+	background: rgb(255, 0, 34);
+	border: 0;
+	color: #fff;
+	padding: 10px 15px;
+	cursor: pointer;
+}
+
+#results h3 {
+	background: darkgrey;
+	padding: 10px;
+	margin: 10px 0;
+	color: black;
+	text-align: center;
+}
+
+#results span {
+	color: red;
+	font-weight: bold;
+	text-align: center;
+}
